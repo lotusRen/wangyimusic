@@ -30,10 +30,7 @@ export default {
   width: 100%
   position fixed
   bottom 0
-  display: -webkit-flex
-  display: flex
-  flex-direction row 
-  justify-content space-around
+  flex-row-around()     //进行横轴的弹性布局
   border-top: 1px solid #ccc
   padding: 7px
   li

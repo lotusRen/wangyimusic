@@ -1,4 +1,12 @@
 <template lang="pug">
-  div#findHeader
-    |我是find  
+  div 
+    router-view
 </template>
+<script>
+export default {
+}
+</script>
+<style lang="stylus" scoped>
+
+</style>
+
